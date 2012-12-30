@@ -1,0 +1,15 @@
+{
+  "name": "SQL Injector - Chrome",
+  "description": "Inject SQL query in any form on a page",
+  "options_page": "options.html",
+  "version": "0.2",
+  "permissions": [
+  	"storage",
+	"tabs", "http://*/*", "https://*/*"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
